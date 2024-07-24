@@ -1,0 +1,40 @@
+Date: Tue Jul 23 14:58:56 2024
+
+
+
+
+
+rotational_calibration_success_percentage_without_outliers: 85.5173
+rotational_calibration_success_percentage_with_outliers: 62.9226
+mean_error: 0.0946593
+mean_error_without_outlier: 0.0315363
+
+
+
+
+Final GNSS to LiDAR(GNSS in LiDAR frame) Calibration Matrix Form Results: 
+    0.999346   -0.0343755   -0.0111943     0.257265
+    0.034367     0.999409 -0.000948267     0.142653
+   0.0112203  0.000562931     0.999937    0.0317385
+           0            0            0            1
+
+
+Final GNSS to LiDAR(GNSS in LiDAR frame) Calibration Vector Form Results(x, y, z, yaw, pitch, roll): 
+   0.257265    0.142653   0.0317385    0.034376  -0.0112206 0.000562967
+
+
+
+
+-----PARAMETERS-----
+rosbag_file_path: /home/min00/rosbags/MSU_bags/vmc_gnss_lidar_calib2_2024-07-22-18-12-03.bag
+lidar_topic_name: /lidar/parent/points_raw
+gnss_topic_name: /novatel/oem7/odom
+gnss_topic_name2: /novatel/oem7/inspva
+api_key: AIzaSyBWSqhfFsLgwes5gwNKrPdwAj-9Nrlc0HY
+synch_time_th: 0.02
+voxel_size_for_outlier_filter: 0.5
+score_threshold_for_best_mini_map: 0.85
+outlier_filter_threshold: 5
+iteration_number_for_best_mini_map: 300
+use_z_axis_correction: 0
+apply_refinement_process: 0
