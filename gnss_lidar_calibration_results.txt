@@ -30,7 +30,6 @@ rosbag_file_path: /home/min00/rosbags/MSU_bags/vmc_gnss_lidar_calib2_2024-07-22-
 lidar_topic_name: /lidar/parent/points_raw
 gnss_topic_name: /novatel/oem7/odom
 gnss_topic_name2: /novatel/oem7/inspva
-api_key: AIzaSyBWSqhfFsLgwes5gwNKrPdwAj-9Nrlc0HY
 synch_time_th: 0.02
 voxel_size_for_outlier_filter: 0.5
 score_threshold_for_best_mini_map: 0.85
